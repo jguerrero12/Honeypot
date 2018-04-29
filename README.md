@@ -2,7 +2,7 @@
 
 Honeypots deployed:
 - Dionaea
-- Redhat/Centos - Kippo
+- centos/rasberrypi - Kippo
 - Kippo as vulnerable Juniper Netscreen
 - shockpot
 - wordpot
@@ -10,9 +10,9 @@ Honeypots deployed:
 Issues encountered:
 - Admin panel didn't include nmap package, found installation elsewhere.
 
-- Milestone 4: insctruction to click on Deploy from MHN admin console was a little unclear that you needed to use the admin IP address to login.
+- Milestone 4: instruction to click on Deploy from MHN admin console was a little unclear that you needed to use the admin IP address to login.
 
-- Profile selection was unclear on what to use, create a new one or existing one?
+- GCP Project selection was unclear on what to use, create a new one or existing one?
 
 Data Collected:
 - 374 Attacks recieved
