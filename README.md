@@ -1,11 +1,11 @@
 # Honeypot
 
 Honeypots deployed:
-- Dionaea
-- centos/rasberrypi - Kippo
-- Kippo as vulnerable Juniper Netscreen
-- shockpot
-- wordpot
+- Dionaea [ref](https://dionaea.readthedocs.io/en/latest/introduction.html)
+- centos/rasberrypi - Kippo (renamed to cowrie) [ref](https://github.com/threatstream/mhn/wiki/Cowrie-Sensor)
+- Kippo as vulnerable Juniper Netscreen (renamed to cowrie) [ref](https://github.com/threatstream/mhn/wiki/Cowrie-Sensor)
+- shockpot [ref](https://github.com/threatstream/mhn/wiki/Shockpot-Sensor)
+- wordpot [ref](https://github.com/threatstream/mhn/wiki/Wordpot-Sensor)
 
 Issues encountered:
 - Admin panel didn't include nmap package, found installation elsewhere.
@@ -20,6 +20,10 @@ Data Collected:
 - Honeypot Dionaea was the one with most attacks recieved (most likely from being initialized first)
 
 Unresolved questions raised by the data collected:
-- What kind of attack was being carried out?
+- What kind of attack was being carried out? More info?
 - Do the attacks directly affect the VM's?
 - What use is the info that I collected for?
+
+# Demo
+
+<img src="https://github.com/jguerrero12/Honeypot/blob/master/demo.gif" width="500"/>
