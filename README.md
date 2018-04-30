@@ -24,6 +24,6 @@ Unresolved questions raised by the data collected:
 - Do the attacks directly affect the VM's?
 - What use is the info that I collected for?
 
-# Demo
+Example Attacks logged:
 
 <img src="https://github.com/jguerrero12/Honeypot/blob/master/demo.gif" width="500"/>
